@@ -1,12 +1,11 @@
 package student.management.system;
 
-import javax.swing.*;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;;
+import java.awt.event.ActionListener;
+import javax.swing.*;;
 
 public class Main_class extends JFrame   {
   Main_class(){
@@ -30,7 +29,8 @@ public class Main_class extends JFrame   {
     add.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e){
-
+        new AddEmployee();
+        // addEmployee.setVisible(true);
       }
     });
     image.add(add);
@@ -42,7 +42,7 @@ public class Main_class extends JFrame   {
     view.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e){
-        
+       new View_Employee();
       }
     });
     image.add(view);
@@ -54,7 +54,8 @@ public class Main_class extends JFrame   {
     rem.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e){
-        
+        new DeleteEmployee();
+        // remove_Employee.setVisible(true);
       }
     });
     image.add(rem);

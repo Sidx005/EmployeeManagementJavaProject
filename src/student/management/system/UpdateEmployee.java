@@ -193,7 +193,7 @@ public class UpdateEmployee extends JFrame implements ActionListener {
         String empID=tempid.getText();
         try {
           conn c=new conn();
-          String query="update employee set fname='"+fname+"',salary='"+salary+"',address='"+address+"',phone='"+phone+"',email='"+email+"',education='"+education+"',designation='"+designation+"',empId='"+empID+"',aadhar='"+aadhar+"'";
+          String query="update employee set fname='"+fname+"',salary='"+salary+"',address='"+address+"',phone='"+phone+"',email='"+email+"',education='"+education+"',designation='"+designation+"',empId='"+empID+"',aadhar='"+aadhar+"' "+"WHERE empId='"+empID+"'";
           c.statement.executeUpdate(query);
           JOptionPane.showMessageDialog(null,"Details Updated Successfully");
           setVisible(false);

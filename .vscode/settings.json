@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "c:\\Users\\Siddharth\\OneDrive\\Desktop\\ResultSet2xml.jar",
+        "c:\\Users\\Siddharth\\OneDrive\\Desktop\\jcalendar-1.4\\lib\\jcalendar-1.4.jar",
+        "c:\\Users\\Siddharth\\javaProject\\student-management\\lib\\postgresql-42.7.8.jar"
+    ]
+}
